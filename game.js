@@ -64,8 +64,9 @@ class Game{
                          text(allPlayers[plr].name ,x-25,y+25);
 
                          fill("white");
-                         text("Player1: " + player.score,100,200);
-                         text("Player2: " + player.score,100,300);
+    
+                         text("Player 1 :" +allPlayers.player1.score,50,50); 
+                         text("Player 2 :" + allPlayers.player2.score, 50, 100);
                          
                  
         
